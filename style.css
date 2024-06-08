@@ -200,6 +200,11 @@ body{
 .main-chart{
     width: 100%;
 }
+.sub-chart{
+    position: relative;
+    top:70px;
+    left: 100px;
+}
 .chart h1{
     color:white;
     font-family: 'mediumfont';
@@ -210,7 +215,7 @@ body{
 }
 .text p{
     color:rgb(236,236,243);
-    font-size: 10px;
+    font-size: 12px;
     position: relative;
     top: 160px;
     left:250px;
@@ -240,7 +245,7 @@ body{
 }
 #dev{
     color:white;
-    font-size: 10px;
+    font-size: 12px;
     position: relative;
     top:240px;
     left:290px;
