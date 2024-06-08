@@ -24,9 +24,11 @@ body{
     overflow: hidden;
 }
 .head{
-    width:650px;
+    width:700px;
     background: white;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .chart{
     flex:1;
