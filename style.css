@@ -31,9 +31,11 @@ body{
     align-items: center;
 }
 .chart{
-    flex:1;
-    height: 800px;
+    height:1200px;
     background: rgb(104,65,218);    
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-element{
     margin-left:100px;  
