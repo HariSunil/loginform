@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'mediumfont';
+    src: url(./fonts/Mona-Sans-Medium.ttf);
+}
+@font-face {
+    font-family: 'regularfont';
+    src: url(./fonts/Mona-Sans-Regular.ttf);
+}
+@font-face {
+    font-family: 'lightfont';
+    src: url(./fonts/Mona-Sans-Light.ttf);
+}
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    width:650px;
+    background: white;
+}
+.chart{
+    flex:1;
+    background: rgb(104,65,218);    
+}
+.main-element{
+    margin-left:100px;  
+    position: relative;
+    top:40px;
+}
+.sub-head{
+   display: inline-flex;
+}
+.sub-head p{
+    font-family: 'regularfont';
+    font-weight: 600;
+    font-size: 16px;
+}
+.main-form{
+    margin-top: 60px;
+    padding-inline: 130px;
+}
+.main-form p{
+    font-size: 10px;
+    font-family: 'lightfont';
+    font-weight: 600;
+    margin-top: 10px;
+}
+.sm{
+    padding-top:20px;
+    padding-bottom: 15px;
+    padding-inline: 130px;
+
+}
+.sm_btn{
+    background: white;
+    color:black;
+    width:285px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+#text{
+    margin-left: 10px;
+}
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    top:45%;
+    left: 0;
+    background: black;
+    opacity: 0.3;
+  }
+  .hr-lines{
+    position: relative;
+    max-width: 300px;
+    margin: 4px auto;
+    text-align: center;
+    font-size: 10px;
+  }
+  .hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    opacity: 0.3;
+  }
+  .s_form input[type=text]{
+    border-radius: 2px;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'lightfont';
+    font-weight: 600;
+    padding-block:14px;
+    padding-inline: 12px;
+    border: 1px solid black;
+    margin-bottom: 12px;
+  }
+  .s_form input[type=password]{
+    border-radius: 2px;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'lightfont';
+    padding-block:14px;
+    padding-inline: 12px;
+    border: 1px solid black;
+    margin-bottom: 6px;
+  }
+  .details{
+    padding-inline:130px;
+  }
+  #name1,#name2{
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'lightfont';
+    line-height: 20px;
+  }
+  #agree{
+    font-size: 10px;
+    margin-left: 4px;
+  }
+  .box{
+    margin-block: 4px;
+  }
+  #terms{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'lightfont';
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  #forgot a{
+    font-size: 9px;
+    font-family: 'lightfont';
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(104,65,218);
+  }
+  .btn{
+    background:rgb(104,65,218);
+    color: white;
+    border: none;
+    width:100%;
+    height: 30px;
+    padding-block: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 14px;
+    border-radius: 4px;
+}
+.register{
+    padding-block: 12px;
+}
+#reg{
+    font-size: 10px;
+    font-family: 'lightfont';
+    font-weight: 600;
+}
+.register a{
+    text-decoration: none;
+    color: rgb(104,65,218);
+    font-size: 10px;
+    font-family: 'lightfont';
+    font-weight: 600;
+}
+.rights p{
+     font-size: 8px;
+     margin-top: 75px;
+} 
+.chart h1{
+    color:white;
+    font-family: 'mediumfont';
+    font-weight: 600;
+    position: relative;
+    top:80px;
+    left:200px;
+}
+.text p{
+    color:rgb(236,236,243);
+    font-size: 10px;
+    position: relative;
+    top: 100px;
+    left:200px;
+    line-height: 16px;
+}
+#com{
+    position: relative;
+    left:30px;
+}
+#sign{
+    position: relative;
+    right:50px;
+}
+.chart h2{
+    color:white;
+    position:relative;
+    top:150px;
+    left:235px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'regularfont';
+}
+#dream{
+    position: relative;
+    left:30px;
+    top:5px;
+}
+#dev{
+    color:white;
+    font-size: 10px;
+    position: relative;
+    top:175px;
+    left:250px;
+}
+.chart img{
+    width:130px;
+    height:130px;
+    position: relative;
+    top:130px;
+    left:250px;
+}
+
+
+
