@@ -202,8 +202,8 @@ body{
 }
 .sub-chart{
     position: relative;
-    top:70px;
-    left: 100px;
+    top:100px;
+    left: 140px;
 }
 .chart h1{
     color:white;
@@ -233,7 +233,7 @@ body{
     color:white;
     position:relative;
     top:220px;
-    left:280px;
+    left:310px;
     font-size: 20px;
     font-weight: 600;
     font-family: 'regularfont';
@@ -248,14 +248,14 @@ body{
     font-size: 12px;
     position: relative;
     top:240px;
-    left:290px;
+    left:310px;
 }
 .chart img{
     width:130px;
     height:130px;
     position: relative;
     top:190px;
-    left:290px;
+    left:310px;
 }
 
 
