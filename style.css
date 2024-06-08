@@ -33,9 +33,6 @@ body{
 .chart{
     height:1200px;
     background: rgb(104,65,218);    
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 .main-element{
     margin-left:100px;  
