@@ -271,6 +271,9 @@ body{
     .chart{
         display:none;
     }
+    .head{
+        width:100%;
+    }
     .main-element{
         margin-left:140px;  
     }
