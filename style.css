@@ -268,14 +268,8 @@ body{
 
 }
 @media (max-width:840px){
-    .head{
-        width:100%;
-    }
     .chart{
         display:none;
-    }
-    .head{
-        width:100%;
     }
 }
 @media (min-width:841px) and (max-width:1200px){
