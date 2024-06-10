@@ -292,6 +292,9 @@ body{
     .hr-lines{
         font-size: 12px;
     }
+    .rights{
+        font-size: 12px;
+    }
 
 }
 @media (min-width:841px) and (max-width:1200px){
