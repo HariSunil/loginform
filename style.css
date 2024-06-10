@@ -37,7 +37,7 @@ body{
     align-items: center;
 }
 .main-element{
-    margin-left:40px;  
+    margin-left:20px;  
 }
 .sub-head{
    display: inline-flex;
@@ -251,7 +251,7 @@ body{
         width:100%;
     }
     .main-element{
-        margin-left:110px;  
+        margin-left:130px;  
     }
     .login-subform{
       margin-inline: -140px;
