@@ -119,8 +119,8 @@ body{
   .s_form input[type=text]{
     border-radius: 2px;
     width: 100%;
-    height: 20px;
-    font-size: 10px;
+    height: 24px;
+    font-size: 12px;
     font-family: 'lightfont';
     font-weight: 600;
     padding-block:14px;
@@ -131,8 +131,8 @@ body{
   .s_form input[type=password]{
     border-radius: 2px;
     width: 100%;
-    height: 20px;
-    font-size: 10px;
+    height: 24px;
+    font-size: 12px;
     font-family: 'lightfont';
     padding-block:14px;
     padding-inline: 12px;
@@ -255,21 +255,25 @@ body{
     } 
     .main-form,.sm,.details{
         padding-inline: 70px;
-    }     
-    #name1,#name2{
+    } 
+    .s_form input[type=text]{
+        height: 28px;
         font-size: 16px;
-    }
-    .sm_btn{
-        font-size: 14px;
+        padding-block: 18px;
+        padding-inline: 16px;
+    } 
+    .s_form input[type=password]{
+        height:28px;
+        font-size: 16px;
+        padding-block: 18px;
+        padding-inline: 16px;
+    }   
+    #name1,#name2{
+        font-size: 18px;
     }
     .hr-lines{
         font-size: 12px;
     }
-    .btn,.rights p{
-        font-size: 14px;
-    }
-
-
 }
 @media (max-width:840px){
     .chart{
