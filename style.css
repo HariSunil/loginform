@@ -209,7 +209,7 @@ body{
 }
 .sub-chart{
    padding-inline: 80px;
-   padding-block: 80px;
+   padding-block: 100px;
 }
 .chart h1{
     color:white;
@@ -220,7 +220,7 @@ body{
 }
 .text p{
     color:rgb(236,236,243);
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     text-align: center;
     padding-bottom: 35px;
