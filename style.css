@@ -250,6 +250,10 @@ body{
     .head{
         width:100%;
     }
+    .main-element{
+        margin-left:70px;  
+    }
+    
     #name1,#name2{
         font-size: 14px;
     }
