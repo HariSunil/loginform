@@ -37,26 +37,25 @@ body{
     align-items: center;
 }
 .main-element{
-    margin-left:100px;  
-    position: relative;
-    top:20px;
+    margin-left:40px;  
 }
 .sub-head{
    display: inline-flex;
 }
 .sub-head p{
-    font-family: 'regularfont';
+    font-family: 'lightfont';
     font-weight: 600;
     font-size: 16px;
+    margin-left: 2px;
 }
 .main-form{
-    margin-top: 30px;
+    margin-top: 20px;
     padding-inline: 130px;
 }
 .main-form h2{
     font-family: 'regularfont';
+    font-size: 28px;
     font-weight: 700;
-    padding-block: 10px;
 }
 .main-form p{
     font-size: 14px;
@@ -82,6 +81,7 @@ body{
     border-radius: 4px;
     font-size: 12px;
     font-weight: 700;
+    font-family: 'lightfont';
     
 }
 #text{
@@ -143,31 +143,27 @@ body{
     padding-inline:130px;
   }
   #name1,#name2{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     font-family: 'lightfont';
     line-height: 30px;
   }
   #agree{
-    font-size: 10px;
     margin-left: 4px;
   }
   .box{
     margin-block: 4px;
   }
-  #terms{
-    font-size: 10px;
-    font-weight: 600;
+  #agree,#terms{
+    font-size: 12px;
+    font-weight: 400;
     font-family: 'lightfont';
   }
   .main{
     display: flex;
     justify-content: space-between;
   }
-  #forgot a{
-    font-size: 9px;
-    font-family: 'lightfont';
-    font-weight: 700;
+  #terms a{
     text-decoration: none;
     color: rgb(104,65,218);
   }
@@ -176,33 +172,33 @@ body{
     color: white;
     border: none;
     width:100%;
-    height: 30px;
+    height: 35px;
     padding-block: 6px;
     text-align: center;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
     cursor: pointer;
     margin-top: 14px;
     border-radius: 4px;
 }
 .register{
-    padding-block: 12px;
+    padding-block: 16px;
 }
 #reg{
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'lightfont';
     font-weight: 600;
 }
 .register a{
     text-decoration: none;
     color: rgb(104,65,218);
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'lightfont';
     font-weight: 600;
 }
 .rights p{
-     font-size: 8px;
-     margin-top: 45px;
+     font-size: 10px;
+     margin-top: 60px;
 } 
 .main-chart{
     width: 50%;
@@ -237,6 +233,7 @@ body{
 #dev{
     color:white;
     font-size: 12px;
+    font-family: 'lightfont';
     text-align: center;
 }
 .chart img{
@@ -245,6 +242,40 @@ body{
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+@media (max-width:640px){
+    .chart{
+        display:none;
+    }
+    .head{
+        width:100%;
+    }
+    #name1,#name2{
+        font-size: 14px;
+    }
+    .sm_btn{
+        font-size: 14px;
+    }
+    .hr-lines{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:840px){
+    .chart{
+        display:none;
+    }
+    .head{
+        width:100%;
+    }
+}
+@media (min-width:841px) and (max-width:1200px){
+    .text p{
+        font-size: 12px;
+    }
+    #name1,#name2{
+        font-size: 14px;
+    }
 }
 
 
