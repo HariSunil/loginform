@@ -251,9 +251,11 @@ body{
         width:100%;
     }
     .main-element{
-        margin-left:100px;  
+        margin-left:140px;  
     }
-    
+    .login-subform{
+      margin-inline: -40px;
+    }
     #name1,#name2{
         font-size: 14px;
     }
