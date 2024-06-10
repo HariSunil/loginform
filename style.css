@@ -21,18 +21,20 @@ body{
     height:100vh;
     display: flex;
     flex-direction: row;
-    overflow: hidden;
 }
 .head{
-    width:750px;
+    width:50%;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .chart{
-    height:1200px;
-    background: rgb(104,65,218);    
+    height:100vh;
+    background: rgb(104,65,218);  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
 }
 .main-element{
     margin-left:100px;  
@@ -48,8 +50,13 @@ body{
     font-size: 16px;
 }
 .main-form{
-    margin-top: 60px;
+    margin-top: 30px;
     padding-inline: 130px;
+}
+.main-form h2{
+    font-family: 'regularfont';
+    font-weight: 700;
+    padding-block: 10px;
 }
 .main-form p{
     font-size: 14px;
@@ -119,7 +126,7 @@ body{
     padding-block:14px;
     padding-inline: 12px;
     border: 1px solid black;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
   .s_form input[type=password]{
     border-radius: 2px;
@@ -130,7 +137,7 @@ body{
     padding-block:14px;
     padding-inline: 12px;
     border: 1px solid black;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
   }
   .details{
     padding-inline:130px;
@@ -139,7 +146,7 @@ body{
     font-size: 10px;
     font-weight: 700;
     font-family: 'lightfont';
-    line-height: 20px;
+    line-height: 30px;
   }
   #agree{
     font-size: 10px;
@@ -198,64 +205,46 @@ body{
      margin-top: 45px;
 } 
 .main-chart{
-    width: 100%;
+    width: 50%;
 }
 .sub-chart{
-    position: relative;
-    top:120px;
-    left: 160px;
+   padding-inline: 80px;
+   padding-block: 80px;
 }
 .chart h1{
     color:white;
     font-family: 'mediumfont';
     font-weight: 600;
-    position: relative;
-    top:140px;
-    left:280px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 .text p{
     color:rgb(236,236,243);
-    font-size: 14px;
-    position: relative;
-    top: 155px;
-    left:240px;
+    font-size: 12px;
     line-height: 16px;
-}
-#com{
-    position: relative;
-    left:30px;
-}
-#sign{
-    position: relative;
-    right:50px;
-}
+    text-align: center;
+    padding-bottom: 35px;
+}   
 .chart h2{
     color:white;
-    position:relative;
-    top:220px;
-    left:310px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     font-family: 'regularfont';
-}
-#dream{
-    position: relative;
-    left:30px;
-    top:5px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 #dev{
     color:white;
     font-size: 12px;
-    position: relative;
-    top:240px;
-    left:310px;
+    text-align: center;
 }
 .chart img{
     width:130px;
     height:130px;
-    position: relative;
-    top:190px;
-    left:310px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
