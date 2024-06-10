@@ -271,6 +271,22 @@ body{
     .chart{
         display:none;
     }
+    .main-element{
+        margin-left:140px;  
+    }
+    .login-subform{
+      margin-inline: -40px;
+    }
+    #name1,#name2{
+        font-size: 14px;
+    }
+    .sm_btn{
+        font-size: 14px;
+    }
+    .hr-lines{
+        font-size: 12px;
+    }
+
 }
 @media (min-width:841px) and (max-width:1200px){
     .text p{
