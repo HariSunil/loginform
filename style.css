@@ -251,13 +251,13 @@ body{
         width:100%;
     }
     .main-element{
-        margin-left:130px;  
-    }
-    .login-subform{
-      margin-inline: -140px;
-    }
+        margin-left:50px;  
+    } 
+    .main-form,.sm,.details{
+        padding-inline: 70px;
+    }     
     #name1,#name2{
-        font-size: 14px;
+        font-size: 16px;
     }
     .sm_btn{
         font-size: 14px;
@@ -265,34 +265,32 @@ body{
     .hr-lines{
         font-size: 12px;
     }
+    .btn,.rights p{
+        font-size: 14px;
+    }
+
 
 }
 @media (max-width:840px){
-    body{
-        background-color: white;
-    }
     .chart{
         display:none;
     }
     .head{
         width:100%;
     }
-    .main-element{
-        margin-left:120px;  
-    }
-    .login-subform{
-      margin-inline: -40px;
-    }
     #name1,#name2{
-        font-size: 14px;
+        font-size: 16px;
     }
     .sm_btn{
         font-size: 14px;
     }
+    .btn{
+        font-size: 16px;
+    }
     .hr-lines{
         font-size: 12px;
     }
-    .rights{
+    .rights p{
         font-size: 14px;
     }
 
