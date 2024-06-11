@@ -253,9 +253,6 @@ body{
     .main-element{
         margin-left:50px;  
     } 
-    .main-form,.sm,.details{
-        padding-inline: 70px;
-    } 
     .s_form input[type=text]{
         height: 28px;
         font-size: 16px;
@@ -276,9 +273,6 @@ body{
     }
 }
 @media (max-width:840px){
-    body{
-        background: white;
-    }
     .chart{
         display:none;
     }
@@ -286,13 +280,23 @@ body{
         width:100%;
     }
     .main-element{
-        margin-left:50px;  
+        margin-left:100px;
     } 
-    .main-form,.sm,.details{
-        padding-inline: 70px;
-    }
     #name1,#name2{
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .s_form input[type=text]{
+        height: 28px;
         font-size: 16px;
+        padding-block: 18px;
+        padding-inline: 16px;
+    } 
+    .s_form input[type=password]{
+        height:28px;
+        font-size: 16px;
+        padding-block: 18px;
+        padding-inline: 16px;
     }
     .sm_btn{
         font-size: 14px;
