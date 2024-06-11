@@ -273,6 +273,9 @@ body{
     }
 }
 @media (max-width:840px){
+    body{
+        background: white;
+    }
     .chart{
         display:none;
     }
