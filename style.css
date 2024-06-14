@@ -334,11 +334,28 @@ body{
         padding-block: 18px;
         padding-inline: 16px;
     }
+    .box{
+        margin-block: 10px;
+    }  
+    #terms,#agree{
+        font-size: 16px;
+    }
+    .btn{
+        margin-top: 20px;
+        height:45px;
+        font-size: 24px;
+    }
+    #reg{
+        font-size: 18px;
+    }
     .sm_btn{
         font-size: 18px;
     }
     .hr-lines{
         font-size: 14px;
+    }
+    .rights p{
+        font-size: 16px;
     }
 
 }
