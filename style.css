@@ -36,6 +36,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.element{
+    margin-left: 30px;
+}
 .sub-head{
    display: inline-flex;
 }
