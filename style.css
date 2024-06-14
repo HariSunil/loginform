@@ -252,6 +252,7 @@ body{
         height: 900px;
     }
     .element{
+        margin-top: 100px;
         margin-left: 140px;
         margin-bottom: 60px;
     }
@@ -268,7 +269,7 @@ body{
     .main-form p{
         font-size: 14px;
         margin-top: 20px;
-    }    
+    }   
     .s_form input[type=text]{
         height: 28px;
         font-size: 20px;
@@ -334,10 +335,10 @@ body{
         padding-inline: 16px;
     }
     .sm_btn{
-        font-size: 14px;
+        font-size: 18px;
     }
     .hr-lines{
-        font-size: 12px;
+        font-size: 14px;
     }
 
 }
