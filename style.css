@@ -252,18 +252,26 @@ body{
         height: 900px;
     }
     .element{
-        margin-left: 80px;
-        margin-bottom: 40px;
+        margin-left: 140px;
+        margin-bottom: 60px;
     }
     .sub-head p{
         font-size: 20px;
     }
-    .main-form h2{
-        font-size: 32px;
+    .main-form,.sm,.details{
+        padding-inline: 220px;
+        margin-bottom: 10px;
     }
+    .main-form h2{
+        font-size: 36px;
+    }
+    .main-form p{
+        font-size: 14px;
+        margin-top: 20px;
+    }    
     .s_form input[type=text]{
         height: 28px;
-        font-size: 16px;
+        font-size: 20px;
         padding-block: 18px;
         padding-inline: 16px;
     } 
@@ -272,12 +280,31 @@ body{
         font-size: 16px;
         padding-block: 18px;
         padding-inline: 16px;
-    }   
+    } 
+    .box{
+        margin-block: 10px;
+    }  
+    #terms,#agree{
+        font-size: 16px;
+    }
     #name1,#name2{
         font-size: 18px;
     }
     .hr-lines{
         font-size: 12px;
+        margin-block: 10px;
+    }
+    .btn{
+        margin-top: 20px;
+        height:45px;
+        font-size: 24px;
+    }
+    #reg{
+        font-size: 18px;
+    }
+    .rights p{
+        font-size: 16px;
+        margin-top: 100px;
     }
 }
 @media (max-width:840px){
@@ -290,17 +317,13 @@ body{
     .head{
         width:100%;
     }
-    .element{
-        margin-left: 80px;
-        margin-bottom: 40px;
-    }
     #name1,#name2{
-        font-size: 18px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 64px;
     }
     .s_form input[type=text]{
         height: 28px;
-        font-size: 16px;
+        font-size: 20px;
         padding-block: 18px;
         padding-inline: 16px;
     } 
@@ -313,14 +336,8 @@ body{
     .sm_btn{
         font-size: 14px;
     }
-    .btn{
-        font-size: 16px;
-    }
     .hr-lines{
         font-size: 12px;
-    }
-    .rights p{
-        font-size: 14px;
     }
 
 }
