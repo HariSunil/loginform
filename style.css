@@ -36,9 +36,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-.element{
-    margin-left:20px;  
-}
 .sub-head{
    display: inline-flex;
 }
@@ -243,7 +240,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-@media (max-width:640px){
+@media (min-width:240px) and (max-width:640px){
     .chart{
         display:none;
     }
@@ -252,16 +249,13 @@ body{
         height: 900px;
     }
     .element{
-        margin-top: 100px;
-        margin-left: 140px;
-        margin-bottom: 60px;
-    }
-    .sub-head p{
-        font-size: 20px;
+        margin-left: 170px;
     }
     .main-form,.sm,.details{
-        padding-inline: 220px;
-        margin-bottom: 10px;
+        padding-left: 200px;
+    }    
+    .sub-head p{
+        font-size: 20px;
     }
     .main-form h2{
         font-size: 36px;
@@ -273,8 +267,8 @@ body{
     .s_form input[type=text]{
         height: 28px;
         font-size: 20px;
-        padding-block: 18px;
-        padding-inline: 16px;
+        padding-block: 16px;
+        padding-inline: 14px;
     } 
     .s_form input[type=password]{
         height:28px;
@@ -294,6 +288,7 @@ body{
     .hr-lines{
         font-size: 12px;
         margin-block: 10px;
+        margin-left: 200px;
     }
     .btn{
         margin-top: 20px;
