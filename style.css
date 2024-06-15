@@ -244,6 +244,9 @@ body{
     margin-right: auto;
 }
 @media (min-width:240px) and (max-width:640px){
+    body{
+        padding-inline: 200px;
+    }
     .chart{
         display:none;
     }
@@ -252,7 +255,7 @@ body{
         height: 900px;
     }
     .element{
-        margin-left: 170px;
+        margin-left: 150px;
     }
     .main-form,.sm,.details{
         padding-left: 200px;
