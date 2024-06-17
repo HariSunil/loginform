@@ -89,6 +89,8 @@ body{
 }
 #text{
     margin-left: 10px;
+    font-size: 12px;
+    font-weight: 800;
 }
 .hr-lines:before{
     content:" ";
@@ -142,6 +144,10 @@ body{
     border: 1px solid lightgray;
     margin-bottom: 10px;
   }
+  .box input[type=checkbox]{
+    position: absolute;
+    top:64%;
+  }
   .details{
     padding-inline:130px;
   }
@@ -159,8 +165,11 @@ body{
   }
   #agree,#terms{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'lightfont';
+  }
+  #agree{
+    padding-left: 12px;
   }
   .main{
     display: flex;
