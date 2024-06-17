@@ -3,17 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face{
+    font-family: 'bold';
+    src:url(./fonts/OpenSans-Bold.ttf)
+}
 @font-face {
     font-family: 'mediumfont';
-    src: url(./fonts/Mona-Sans-Medium.ttf);
+    src: url(./fonts/OpenSans-Medium.ttf);
 }
 @font-face {
     font-family: 'regularfont';
-    src: url(./fonts/Mona-Sans-Regular.ttf);
+    src: url(./fonts/OpenSans-Regular.ttf);
 }
 @font-face {
     font-family: 'lightfont';
-    src: url(./fonts/Mona-Sans-Light.ttf);
+    src: url(./fonts/OpenSans-Light.ttf);
 }
 body{
     margin:0;
@@ -43,8 +47,7 @@ body{
    display: inline-flex;
 }
 .sub-head p{
-    font-family: 'lightfont';
-    font-weight: 600;
+    font-family: 'bold';
     font-size: 16px;
     margin-left: 2px;
 }
@@ -54,8 +57,8 @@ body{
 }
 .main-form h2{
     font-family: 'regularfont';
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 26px;
+    font-weight: 800;
 }
 .main-form p{
     font-size: 14px;
@@ -73,7 +76,7 @@ body{
     background: white;
     color:black;
     width:285px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 10px 16px;
     text-align: center;
     text-decoration: none;
@@ -125,7 +128,7 @@ body{
     font-weight: 600;
     padding-block:14px;
     padding-inline: 12px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin-bottom: 16px;
   }
   .s_form input[type=password]{
@@ -136,7 +139,7 @@ body{
     font-family: 'lightfont';
     padding-block:14px;
     padding-inline: 12px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin-bottom: 10px;
   }
   .details{
@@ -209,22 +212,23 @@ body{
 }
 .chart h1{
     color:white;
-    font-family: 'mediumfont';
-    font-weight: 600;
+    font-family: 'bold';
+    font-weight: 700;
+    font-size: 54px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .text p{
     color:rgb(236,236,243);
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     text-align: center;
     padding-bottom: 35px;
 }   
 .chart h2{
     color:white;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 700;
     font-family: 'regularfont';
     text-align: center;
     padding-top: 50px;
@@ -232,8 +236,9 @@ body{
 }
 #dev{
     color:white;
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'lightfont';
+    font-weight: 900;
     text-align: center;
 }
 .chart img{
