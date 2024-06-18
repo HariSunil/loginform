@@ -193,20 +193,21 @@ body{
     padding-block: 16px;
 }
 #reg{
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'lightfont';
-    font-weight: 600;
 }
 .register a{
     text-decoration: none;
     color: rgb(104,65,218);
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'lightfont';
     font-weight: 600;
 }
 .rights p{
      font-size: 10px;
-     margin-top: 60px;
+     font-family: 'regularfont';
+     font-weight: 500;
+     margin-top: 100px;
 } 
 .main-chart{
     width: 50%;
@@ -311,11 +312,9 @@ body{
         height:45px;
         font-size: 24px;
     }
-    #reg{
-        font-size: 18px;
-    }
     .rights p{
         font-size: 16px;
+        font-family: 'regularfont';
         margin-top: 100px;
     }
 }
